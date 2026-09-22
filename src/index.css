@@ -103,7 +103,7 @@ body {
   height: 240px;
   width: 100%;
   overflow: hidden;
-  border-radius: 0;
+  border-radius: 0 !important;
 }
 
 .profile-banner {
@@ -112,6 +112,7 @@ body {
   object-fit: cover;
   filter: none;
   transition: transform 0.6s ease;
+  border-radius: 0 !important;
 }
 
 .single-card-container:hover .profile-banner {
