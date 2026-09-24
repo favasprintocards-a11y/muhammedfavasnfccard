@@ -49,7 +49,7 @@ export default function App() {
       {/* Developer Credits Footer */}
       <footer className="dev-footer" style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '0px', width: '100%', textAlign: 'center' }}>
-          <span style={{ fontSize: '11px', fontWeight: 700, color: '#000000', textTransform: 'uppercase', letterSpacing: '1.2px', textAlign: 'center' }}>
+          <span className="dev-by-text" style={{ fontSize: '11px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '1.2px', textAlign: 'center' }}>
             Developed by
           </span>
           <img

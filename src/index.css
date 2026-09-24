@@ -31,9 +31,10 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 0 0 20px 0; /* Gap 3: Bottom of Footer to Screen bottom */
+  padding: 0 0 20px 0;
+  /* Gap 3: Bottom of Footer to Screen bottom */
   position: relative;
-  background: #ff3131;
+  background: #000000;
   overflow-x: hidden;
 }
 
@@ -47,7 +48,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px; /* Gap 2: Bottom of Social Icons to Footer top */
+  margin-top: 20px;
+  /* Gap 2: Bottom of Social Icons to Footer top */
   margin-bottom: 0;
   position: relative;
   z-index: 20;
@@ -57,6 +59,11 @@ body {
   text-align: center;
   padding: 0;
   background: transparent;
+}
+
+.dev-by-text {
+  color: #ffffff;
+  /* Change "Developed by" text color here */
 }
 
 .dev-link {
@@ -190,7 +197,7 @@ body {
 .profile-role {
   font-size: 14px;
   font-weight: 500;
-  color: #000000;
+  color: #ff0000;
   margin: 0;
 }
 
